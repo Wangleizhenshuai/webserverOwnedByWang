@@ -1,8 +1,9 @@
 # webserverOwnedByWang
-该项目为实习应聘项目，比较简单
+该项目是使用c++11编写的webserver项目，比较简单
 # 并发服务器方案 multiple Reactors + threadPool
 
-Technical points
+# 使用技术
+
 使用Epoll边沿触发的IO多路复用技术，非阻塞IO，使用Reactor模式
 使用多线程充分利用多核CPU，并使用线程池避免线程频繁创建销毁的开销
 使用基于小根堆的定时器关闭超时请求
